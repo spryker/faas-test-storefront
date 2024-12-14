@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build -m",
+    "build": "nuxt build -m --standalone",
     "build:analyze": "nuxt build -a -m",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -24,9 +24,12 @@
     "@vue-storefront/nuxt-theme": "~2.3.4",
     "cookie-universal-nuxt": "^2.1.5",
     "core-js": "^2.6.12",
+    "cypress": "^9.2.1",
     "dotenv": "^10.0.0",
     "nuxt": "~2.14.12",
     "nuxt-i18n": "^6.28.1",
+    "nuxt-start": "~2.14.12",
+    "serverless-http": "^2.7.0",
     "vee-validate": "^3.4.14",
     "vue-scrollto": "^2.20.0"
   },

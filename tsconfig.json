@@ -16,5 +16,5 @@
     },
     "types": ["@types/node", "@nuxt/types", "nuxt-i18n"]
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "functions"]
 }
